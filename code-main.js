@@ -1,3 +1,4 @@
+// https://opensource.adobe.com/dc-acrobat-sdk-docs/library/jsapiref/JS_API_AcroJS.html
 var w = globalThis.getField("console");
 var t = 0;
 var i = null;
