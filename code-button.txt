@@ -1,0 +1,13 @@
+<<
+    /Type/Annot /Subtype/Widget /FT/Btn /BS<</W 0>>
+    /AA <<
+        /U <<
+            /JS (start()) % on button up, call start()
+            /S /JavaScript
+        >>
+    >>
+    /Ff 65536 % (push_button)
+    /MK << /BG [.9] /CA (Play!) >>
+    /Rect [0 65 100 85]
+    /T(Play!) /V()
+>>

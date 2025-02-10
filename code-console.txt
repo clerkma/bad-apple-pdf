@@ -1,0 +1,7 @@
+<<
+    /Type/Annot /Subtype/Widget /FT/Tx /BS<</W 0>>
+    /DA (1 1 1 rg /cour 1.2987 Tf)
+    /Ff 4097 % (1 << 12) + 1 (multiline, read_only) 
+    /Rect [0 0 100 60]
+    /T(console) /V()
+>>
