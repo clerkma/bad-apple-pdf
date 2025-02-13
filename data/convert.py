@@ -16,7 +16,11 @@ root = pathlib.Path(".")
 for one in tqdm.tqdm(root.glob("output/*.png"), total=6574):
     stem = one.stem
     # width("…")=width("—")=1000 in Helvetica (text field's default font)
-    os.system(f'jp2a output/{stem}.png --chars="…—" --output=output/{stem}.txt')
+    os.system((
+        f'jp2a output/{stem}.png'
+        ' --chars="…—"'
+        f' --output=output/{stem}.txt'
+    ))
 
 frame = []
 for x in tqdm.tqdm(range(1, 6574)):
